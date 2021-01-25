@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context=".activity_ekle">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Kullanıcı Kaydet"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textColor="@android:color/white"
+        android:background="@color/kirmizi"
+        android:layout_marginBottom="30dp"/>
+    <LinearLayout
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="match_parent"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:hint="Kullanıcı Adı"
+            android:id="@+id/kullanici_txt"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:hint="Ad"
+            android:id="@+id/ad_txt"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:hint="Soyad"
+            android:id="@+id/soyad_txt"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:hint="E-Mail"
+            android:id="@+id/email_txt"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnKayitOl"
+            android:text="Kaydet!">
+        </Button>
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:background="@android:color/darker_gray"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="50dp"
+            android:background="@drawable/user_bg"
+            android:layout_height="50dp">
+            <TextView
+                android:id="@+id/satir_logo"
+                android:text="K"
+                android:layout_width="wrap_content"
+                android:layout_centerInParent="true"
+                android:textColor="@android:color/black"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/satir_kullanici_adi"
+            android:text="Kaan"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="70dp"
+            android:textColor="@android:color/black"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_width="wrap_content"/>
+        <ImageView
+            android:id="@+id/imageMore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_next_black"
+            android:layout_marginRight="10dp" />
+    </RelativeLayout>
+</LinearLayout>
